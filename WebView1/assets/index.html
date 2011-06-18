@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <title>Area Chart</title>
+    <link type="text/css" rel="stylesheet" href="style.css"/>
+    <script type="text/javascript" src="protovis-r3.2.js"></script>
+    <style type="text/css">
+
+#fig {
+  width: 430px;
+  height: 225px;
+}
+
+    </style>
+  </head>
+  <body>
+  
+  <div id="hello"></div>
+  <div id="center"><div id="fig">
+    <script type="text/javascript">
+    
+    document.getElementById("hello").innerHTML = "Hello!!";
+    
+var vis = new pv.Panel()
+    .width(150)
+    .height(150);
+
+vis.add(pv.Bar)
+    .data([1, 1.2, 1.7, 1.5, .7, .3])
+    .width(20)
+    .height(function(d) {d * 80})
+    .bottom(0)
+    .left(function() {this.index * 25});
+
+vis.render();
+
+    </script>
+  </div></div></body>
+</html>

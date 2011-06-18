@@ -7,7 +7,8 @@
 
     <application android:icon="@drawable/icon" android:label="@string/app_name">
         <activity android:name=".WebView1"
-                  android:label="@string/app_name">
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -15,4 +16,13 @@
         </activity>
 
     </application>
+    
+    <uses-permission android:name="android.permission.INTERNET" />
+<uses-permission android:name="android.permission.ACCESS_GPS" />
+<uses-permission android:name="android.permission.ACCESS_ASSISTED_GPS" />
+<uses-permission android:name="android.permission.ACCESS_LOCATION" />
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    
+    
 </manifest>
