@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style parent="android:Widget.Button" name="PanelButton">
+        <item name="android:background">@color/orange</item>
+        <item name="android:layout_width">@dimen/normalWidth</item>
+        <item name="android:layout_height">@dimen/normalWidth</item>
+        <item name="android:padding">0px</item>
+        <item name="android:gravity">bottom|right</item>
+        <item name="android:layout_margin">2px</item>
+    </style>
+    <style name="PanelElement">
+        <item name="android:layout_margin">2px</item>
+    </style>
+</resources>

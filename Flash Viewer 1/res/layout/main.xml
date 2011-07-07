@@ -1,12 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    >
-<ImageView
-	android:id="@+id/img"
-	android:layout_width="wrap_content"
-	android:layout_height="wrap_content"
-	android:layout_gravity="center"/>
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+    <include layout="@layout/title_area" android:id="@+id/linearLayout4_ref"  android:layout_width="match_parent" android:layout_height="wrap_content"/>
+	<View android:id="@+id/view1" android:layout_width="wrap_content"
+		android:background="@color/orange" android:layout_height="@dimen/normalHeight" style="@style/PanelElement"></View>
+	<LinearLayout android:id="@+id/linearLayout1"
+		android:layout_height="wrap_content" android:layout_width="match_parent"
+		android:layout_weight="1" android:orientation="horizontal">
+		<include layout="@layout/nav_bar" android:id="@+id/linearLayout2_ref"  android:layout_height="match_parent" android:layout_width="wrap_content"/>
+		<LinearLayout android:id="@+id/linearLayout3"
+			android:orientation="vertical" android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+			<TextView android:id="@+id/textView2" android:layout_height="wrap_content"
+				android:textStyle="bold"
+				android:text="Heading" android:layout_gravity="right"
+				android:textSize="16dip" android:layout_width="match_parent"></TextView>
+			<TextView android:text="@string/hello" android:layout_weight="1" android:layout_gravity="right" android:id="@+id/textView3" android:layout_width="match_parent" android:layout_height="wrap_content"></TextView>
+			<View android:id="@+id/view3" android:layout_height="16dip" android:layout_width="wrap_content" style="@style/PanelElement" android:background="@color/orange"></View>
+		</LinearLayout>
+	</LinearLayout>
 </LinearLayout>

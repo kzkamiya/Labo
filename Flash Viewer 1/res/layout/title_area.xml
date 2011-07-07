@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:id="@+id/linearLayout4"
+	android:layout_height="wrap_content">
+	<View android:id="@+id/view4" android:layout_width="96dip"
+		android:layout_height="fill_parent" android:background="#F90" style="@style/PanelElement"></View>
+	<TextView android:gravity="right|center_vertical"
+		android:text="Flash Viewer 01" android:id="@+id/textView1"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:textSize="22px"></TextView>
+</LinearLayout>
+

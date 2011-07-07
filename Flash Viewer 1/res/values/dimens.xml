@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="normalHeight">16dip</dimen>
+    <dimen name="normalWidth">96dip</dimen>
+</resources>

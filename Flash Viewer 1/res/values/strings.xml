@@ -2,4 +2,7 @@
 <resources>
     <string name="hello">Hello World, MainActivity!</string>
     <string name="app_name">Flash Viewer 1</string>
+    <string name="btn_sensors">Sensors</string>
+    <string name="btn_staff">Staff</string>
+    <string name="btn_starlog">Star Log</string>
 </resources>
