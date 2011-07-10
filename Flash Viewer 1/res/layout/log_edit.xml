@@ -15,16 +15,11 @@
 		<LinearLayout android:id="@+id/linearLayout3"
 			android:orientation="vertical" android:layout_width="fill_parent"
 			android:layout_height="fill_parent">
-			<TextView android:id="@+id/textView2" android:layout_height="wrap_content"
-				android:textStyle="bold" android:text="Heading"
-				android:textSize="16dip"
-				android:layout_width="match_parent" android:gravity="right"></TextView>
-			<ScrollView 
-				android:layout_width="fill_parent"
-				android:layout_height="wrap_content" 
-				android:layout_weight="1">
-				<include android:id="@+id/include1" layout="@layout/sensors" android:layout_height="wrap_content" android:layout_width="fill_parent"></include>
-			</ScrollView>
+			<TextView android:layout_height="wrap_content"
+				android:textStyle="bold" android:layout_width="match_parent" android:text="@string/txt_edit_log_entry" android:textSize="20dip" android:id="@+id/txt_title"></TextView>
+			<TextView android:text="TextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/txt_timestamp"></TextView>
+			<EditText android:layout_width="match_parent" android:text="EditText" android:layout_height="wrap_content" android:id="@+id/ed_starlog_text"></EditText>
+			<Button android:layout_width="wrap_content" android:text="@string/txt_btn_confirm" android:id="@+id/button1" android:layout_height="wrap_content" android:layout_gravity="right" android:onClick="onConfirmButtonClick"></Button>
 			<View android:id="@+id/view3" android:layout_height="16dip"
 				android:layout_width="wrap_content" style="@style/PanelElement"
 				android:background="@color/orange"></View>

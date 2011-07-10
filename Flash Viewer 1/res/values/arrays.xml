@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="contactNames">
+		<item>Tester1</item>
+		<item>Tester2</item>
+		<item>Tester3</item>
+		<item>Tester4</item>
+		<item>Tester5</item>
+	</string-array>
+	<string-array name="log_entries">
+		<item>Log entry 1</item>
+		<item>Log entry 2</item>
+		<item>Log entry 3</item>
+	</string-array>
+</resources>

@@ -5,4 +5,13 @@
     <string name="btn_sensors">Sensors</string>
     <string name="btn_staff">Staff</string>
     <string name="btn_starlog">Star Log</string>
+    <string name="txt_accelermeter">Accelerometer (m/s2)</string>
+    <string name="txt_sensors_x">X-Axis</string>
+    <string name="txt_sensor_na">NA</string>
+    <string name="btn_contacts">Launch Contacts</string>
+    <string name="txt_no_staff">empty</string>
+    <string name="txt_edit_log_entry">Edit Log Entry</string>
+    <string name="txt_btn_confirm">Confirm</string>
+    <string name="menu_add_log_entry">Add Log Entry</string>
+    <string name="menu_delete_log_entry">Delete Log Entry</string>
 </resources>

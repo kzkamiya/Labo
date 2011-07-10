@@ -3,6 +3,7 @@
       package="com.me.kzkamiya.android.flashviewer1"
       android:versionCode="1"
       android:versionName="1.0">
+    <uses-permission android:name="android.permission.READ_CONTACTS"></uses-permission>
 
 
     <application android:icon="@drawable/icon" android:label="@string/app_name">
@@ -13,7 +14,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".StaffActivity"></activity>
+        <activity android:name=".StarLogActivity"></activity>
+        <activity android:name=".LogEditActivity"></activity>
 
     </application>
     <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-sdk android:minSdkVersion="7"></uses-sdk>
 </manifest>
