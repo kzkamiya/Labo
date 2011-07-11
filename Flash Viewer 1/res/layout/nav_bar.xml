@@ -3,10 +3,10 @@
 	android:layout_height="match_parent" android:orientation="vertical"
 	android:layout_width="96dip">
 	<Button android:id="@+id/btn_sensors"
-		android:text="@string/btn_sensors" style="@style/PanelButton" android:layout_height="60dip"></Button>
+		android:text="@string/btn_sensors" style="@style/PanelButton" android:layout_height="60dip" android:onClick="onNavButtonClick"></Button>
 	<Button android:id="@+id/btn_staff"
-		android:text="@string/btn_staff" style="@style/PanelButton" android:layout_height="60dip"></Button>
-	<Button android:id="@+id/btn_starlog" android:text="@string/btn_starlog" style="@style/PanelButton" android:layout_height="60dip"></Button>
+		android:text="@string/btn_staff" style="@style/PanelButton" android:layout_height="60dip" android:onClick="onNavButtonClick"></Button>
+	<Button android:id="@+id/btn_starlog" android:text="@string/btn_starlog" style="@style/PanelButton" android:layout_height="60dip" android:onClick="onNavButtonClick"></Button>
 	<View android:id="@+id/view2" android:layout_height="wrap_content"
 		android:background="#F90" style="@style/PanelElement" android:layout_width="@dimen/normalWidth"></View>
 </LinearLayout>

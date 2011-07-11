@@ -5,4 +5,10 @@
     <string name="btn_sensors">Sensors</string>
     <string name="btn_staff">Staff</string>
     <string name="btn_starlog">Star Log</string>
+    <string name="txt_staff_title">Staff</string>
+    <string name="txt_starlog_title">Star Log</string>
+    <string name="txt_main_title">Main</string>
+    <string name="txt_sensors_x">X-Axis</string>
+    <string name="txt_sensors_y">Y-Axis</string>
+    <string name="txt_sensors_z">Z-Axis</string>
 </resources>
